@@ -1,8 +1,8 @@
 {
-  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.5/schema/schema.json",
   "settings": {
     "language": "EN",
-    "MACVersion": "0.3"
+    "MACVersion": "0.5"
   },
   "aboutMe": {
     "profile": {
@@ -11,14 +11,27 @@
       "title": "Software Developer",
       "description": "I am a software developer located in Seville, Spain and I am lucky that one of my hobbies has become my profession. I have been writing code for more than 20 years, having a special interest in code quality and best practices. I have spent my career using .NET technologies although I have some programming knowledge using Angular, HTML, CSS, JavaScript, Java or Python. I care about being in continuous learning or enhancing my skills.",
       "avatar": {
-        "alt": "profile.jpg",
-        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/26/c59521b4-f622-4bf7-ac6f-c229959e677f_profile.jpg"
+        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/03/26/c59521b4-f622-4bf7-ac6f-c229959e677f_profile.jpg",
+        "alt": "profile.jpg"
       },
       "location": {
-        "notes": "Seville"
+        "notes": "Autocompleted using Google Maps API (id: ChIJkWK-FBFsEg0RSFb-HGIY8DQ)",
+        "country": "España",
+        "region": "Andalucía",
+        "municipality": "Sevilla"
       }
     },
+    "interestingFacts": [
+      {
+        "topic": "I'm passionate about music",
+        "fact": "I'm really into music, specially rock, rock'n'roll and blues music. I play the electric guitar and I'm currently in a band which is a tribute to The Rolling Stones."
+      }
+    ],
     "relevantLinks": [
+      {
+        "type": "linkedin",
+        "URL": "https://www.linkedin.com/in/evaristocuesta/"
+      },
       {
         "type": "github",
         "URL": "https://github.com/evaristocuesta"
@@ -30,16 +43,6 @@
       {
         "type": "other",
         "URL": "https://www.evaristocuesta.com/"
-      },
-      {
-        "type": "linkedin",
-        "URL": "https://www.linkedin.com/in/evaristocuesta/"
-      }
-    ],
-    "interestingFacts": [
-      {
-        "topic": "I'm passionate about music",
-        "fact": "I'm really into music, specially rock, rock'n'roll and blues music. I play the electric guitar and I'm currently in a band which is a tribute to The Rolling Stones."
       }
     ]
   },
@@ -202,7 +205,7 @@
                 "type": "technology"
               },
               {
-                "name": "JAVA",
+                "name": "Java",
                 "type": "technology"
               },
               {
@@ -261,7 +264,7 @@
                 "type": "technology"
               },
               {
-                "name": "JAVA",
+                "name": "Java",
                 "type": "technology"
               },
               {
@@ -426,19 +429,17 @@
   "knowledge": {
     "languages": [
       {
-        "name": "English"
+        "name": "EN",
+        "fullName": "Inglés",
+        "level": "Limited working proficiency"
       },
       {
-        "name": "Spanish"
+        "name": "ES",
+        "fullName": "Español",
+        "level": "Limited working proficiency"
       }
     ],
     "hardSkills": [
-      {
-        "skill": {
-          "name": "C#",
-          "type": "technology"
-        }
-      },
       {
         "skill": {
           "name": ".NET",
@@ -453,13 +454,31 @@
       },
       {
         "skill": {
-          "name": "WPF",
+          "name": "C#",
           "type": "technology"
         }
       },
       {
         "skill": {
           "name": "MVVM",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Visual Studio",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Visual Studio Code",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "WPF",
           "type": "technology"
         }
       }
@@ -470,19 +489,39 @@
         "degreeAchieved": true,
         "name": "Bachelor Degree in Computer Engineering",
         "startDate": "1999-09-01",
-        "finishDate": "2011-06-01",
         "institution": {
           "name": "University of Seville"
-        }
+        },
+        "finishDate": "2011-06-01"
       },
       {
         "studyType": "officialDegree",
         "degreeAchieved": true,
         "name": "Certificate of Higher Education in Computer Applications Development",
         "startDate": "1997-09-01",
-        "finishDate": "1999-06-01",
         "institution": {
           "name": "IES Julio Verne"
+        },
+        "finishDate": "1999-06-01"
+      }
+    ],
+    "softSkills": [
+      {
+        "skill": {
+          "name": "Continuous learning",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Proactivity",
+          "type": "practice"
+        }
+      },
+      {
+        "skill": {
+          "name": "Team player",
+          "type": "practice"
         }
       }
     ]
@@ -491,9 +530,20 @@
     "contact": {
       "publicProfiles": [
         {
-          "type": "linkedin",
-          "URL": "https://www.linkedin.com/in/evaristocuesta/"
+          "URL": "https://www.linkedin.com/in/evaristocuesta/",
+          "type": "linkedin"
+        },
+        {
+          "URL": "https://github.com/evaristocuesta",
+          "type": "github"
+        },
+        {
+          "URL": "https://twitter.com/evaristocuesta",
+          "type": "twitter"
         }
+      ],
+      "contactMails": [
+        "contacto@evaristocuesta.com"
       ]
     },
     "preferences": {
@@ -515,10 +565,27 @@
           "type": "technology"
         },
         {
+          "name": "Visual Studio",
+          "type": "technology"
+        },
+        {
+          "name": "Visual Studio Code",
+          "type": "technology"
+        },
+        {
           "name": "WPF",
           "type": "technology"
         }
+      ],
+      "preferredRoles": [
+        "Backend Developer",
+        "Full-stack Developer"
       ]
-    }
+    },
+    "status": "openToOffers"
+  },
+  "manfredSpecificData": {
+    "desiredJobDescription": "I would like a job where code quality and best practices are important. \nAlso, it's very important to work in a team where we learn from each other since I like to learn and teach. \nAnd last but not least, it would be great to have training to improve my skills. ",
+    "goodPractices": "TDD, SOLID, Design Patterns, Clean Code. "
   }
 }
