@@ -561,6 +561,10 @@
           "type": "technology"
         },
         {
+          "name": "Azure",
+          "type": "technology"
+        },
+        {
           "name": "C#",
           "type": "technology"
         },
