@@ -577,10 +577,6 @@
           "type": "technology"
         },
         {
-          "name": "WPF",
-          "type": "technology"
-        },
-        {
           "name": "WebApi",
           "type": "technology"
         }
